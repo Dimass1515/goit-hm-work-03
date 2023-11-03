@@ -16,8 +16,6 @@ img {
   display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .container {
   width: 1158px;
@@ -25,6 +23,8 @@ img {
 .menu_nav {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header_logo_link {
   color: var(--IRIS, #4d5ae5);
