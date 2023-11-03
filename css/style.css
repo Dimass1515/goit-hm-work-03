@@ -68,8 +68,6 @@ img {
 
 .header_em_ph {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address {
   display: flex;
@@ -80,6 +78,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact_link:hover {
   color: #404bbf;
