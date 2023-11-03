@@ -50,11 +50,6 @@ img {
   display: flex;
   gap: 40px;
 }
-.header_item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
@@ -73,6 +68,8 @@ img {
 
 .header_em_ph {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address {
   display: flex;
