@@ -23,8 +23,6 @@ img {
 .menu_nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header_logo_link {
   color: var(--IRIS, #4d5ae5);
@@ -51,6 +49,8 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
