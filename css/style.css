@@ -22,6 +22,7 @@ img {
 }
 .menu_nav {
   display: flex;
+  align-items: center;
 }
 .header_logo_link {
   color: var(--IRIS, #4d5ae5);
@@ -32,6 +33,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .studio {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -43,6 +45,10 @@ img {
   /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.menu {
+  display: flex;
+  gap: 40px;
 }
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
