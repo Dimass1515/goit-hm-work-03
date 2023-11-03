@@ -49,6 +49,8 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+}
+.header_item {
   padding-top: 24px;
   padding-bottom: 24px;
 }
