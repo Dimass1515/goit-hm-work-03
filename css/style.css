@@ -19,6 +19,8 @@ img {
 }
 .container {
   width: 1158px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu_nav {
   display: flex;
@@ -68,12 +70,11 @@ img {
 
 .header_em_ph {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .address {
   display: flex;
   gap: 40px;
+  margin-right: auto;
 }
 .contact_link {
   font-size: 16px;
