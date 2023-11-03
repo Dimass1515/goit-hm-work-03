@@ -16,6 +16,8 @@ img {
   display: flex;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .container {
   width: 1158px;
@@ -49,12 +51,6 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.header_item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .link {
   color: var(--NAVY-BLUE, #2e2f42);
