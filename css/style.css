@@ -19,8 +19,6 @@ img {
 }
 .container {
   width: 1158px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .menu_nav {
   display: flex;
@@ -75,6 +73,8 @@ img {
   display: flex;
   gap: 40px;
   margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact_link {
   font-size: 16px;
