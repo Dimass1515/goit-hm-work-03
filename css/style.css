@@ -237,9 +237,6 @@ img {
   display: flex;
   gap: 24px;
 }
-.company_item {
-  flex-basis: calc((100% - 72px) / 4));
-}
 /* Section 2 */
 
 /* Section 3 */
