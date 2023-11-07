@@ -197,6 +197,10 @@ img {
 /* Section 1 */
 
 /* Section 2 */
+.feature {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .list {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -206,6 +210,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .paragraf_list {
   color: var(--SLATE, #434455);
@@ -216,7 +221,25 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.company_list {
+  display: flex;
+  gap: 24px;
+}
+.company_item {
+  width: calc((100% - 72px) / 4);
+}
 /* Section 2 */
 
 /* Section 3 */
