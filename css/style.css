@@ -150,18 +150,14 @@ img {
   color: #404bbf;
 }
 
-/* Body */
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-/* Body */
+/* Header */
 
 /* Section 1 */
 
 .business_title {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .title_one {
@@ -172,6 +168,7 @@ body {
   font-style: normal;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .button_link {
@@ -184,6 +181,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  margin-top: 48px;
 }
 .button_link:hover {
   background: var(--OCEAN, #404bbf);
