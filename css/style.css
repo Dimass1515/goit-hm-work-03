@@ -275,6 +275,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team_p {
   color: var(--SLATE, #434455);
@@ -289,6 +290,10 @@ img {
 .team_list {
   display: flex;
   gap: 24px;
+}
+.team_list_container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Section 3 */
 
