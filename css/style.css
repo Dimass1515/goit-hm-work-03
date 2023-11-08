@@ -352,6 +352,7 @@ img {
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0 100px 0;
 }
 .span_footer {
   color: #f4f4fd;
@@ -364,6 +365,19 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
-
+.header_logo_footer {
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* Footer */
