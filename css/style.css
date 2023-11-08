@@ -241,9 +241,13 @@ img {
 /* Section 2 */
 
 /* Section 3 */
-
+.our_portfolio {
+  margin-bottom: 72px;
+}
 .our_team {
   background: var(--CLOUD, #f4f4fd);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .header_two {
@@ -259,8 +263,10 @@ img {
 }
 .team_card {
   background: var(--WHITE, #fff);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.team_list {
+.team_item {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -280,7 +286,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.team_list {
+  display: flex;
+  gap: 24px;
+}
 /* Section 3 */
 
 /* Section 4 */
