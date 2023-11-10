@@ -34,7 +34,10 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  margin: 0;
+  font: inherit;
+}
 p,
 input,
 textarea,
@@ -118,6 +121,7 @@ img {
   letter-spacing: 0.32px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .link:hover {
   color: #404bbf;
@@ -167,6 +171,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .button_link {
@@ -185,6 +192,7 @@ img {
   min-width: 169px;
   height: 56px;
   margin-top: 48px;
+  margin: 0 auto;
 }
 .button_link:hover {
   background: var(--OCEAN, #404bbf);
@@ -234,6 +242,7 @@ img {
 .company_list {
   display: flex;
   gap: 24px;
+  margin: 0 auto;
 }
 .company_item {
   width: calc((100% - 72px) / 4);
@@ -292,6 +301,7 @@ img {
 .team_list_container {
   padding-top: 32px;
   padding-bottom: 32px;
+  margin: 0;
 }
 /* Section 3 */
 
@@ -345,6 +355,7 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-top: none;
+  margin: 0 auto;
 }
 /* Section 4 */
 
@@ -353,6 +364,7 @@ img {
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 100px 0 100px 0;
+  margin: 0;
 }
 .span_footer {
   color: #f4f4fd;
