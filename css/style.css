@@ -126,11 +126,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  color: #404bbf;
-}
-.link::after {
-  border-radius: 2px;
-  background: var(--OCEAN, #404bbf);
 }
 .link:hover {
   color: #404bbf;
